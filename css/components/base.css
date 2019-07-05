@@ -16,10 +16,13 @@ main{
   
 }
 .container {
+  max-width:1250px;
+  min-width: 330px;
   display: flex;
   flex-wrap: wrap;
   margin:0 auto;
   flex-direction: column;
+  overflow:hidden;
  }
  
 img {

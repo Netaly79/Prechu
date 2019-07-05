@@ -1,0 +1,50 @@
+.section-hero{
+        position: relative;
+        }
+.background{
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.background img {
+    object-fit: cover;
+    width: 100%;
+}
+.foreground{
+    padding: 22px 41px 12px 4px;
+}
+.hero-image{
+    display: block;
+    margin: 0;
+}
+.hero-image img{
+    height:223px;
+    object-fit: cover;
+}
+.hero-title{
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 35.94px;
+}
+.hero-description{
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 35.94px;
+    margin-bottom: 25px;
+}
+.button{
+    padding: 10px;
+    background-color: #5094f2;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 31px;
+    font-weight: 300;
+    width: 235px;
+}
