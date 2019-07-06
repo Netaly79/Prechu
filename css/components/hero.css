@@ -15,14 +15,17 @@
 }
 .foreground{
     padding: 22px 41px 12px 4px;
+    width: 100%;
 }
 .hero-image{
-    display: block;
     margin: 0;
+    max-width: 177px;
+    width: 100%;
 }
 .hero-image img{
     height:223px;
-    object-fit: cover;
+    width: 100%;
+    object-fit: contain;
 }
 .hero-title{
     color: #ffffff;
@@ -53,4 +56,25 @@
     color: #5094f2;
     background-color: #ffffff;
     cursor: pointer;
+}
+@media all and (min-width: 640px) {
+    .hero-image{
+        width:345px;
+    }
+    .hero-image img{
+        height: 436px;
+        object-fit: contain;
+    }
+    .hero-title{
+        font-size: 42px;
+    }
+    .hero-description{
+        font-size: 26px;
+    }
+    .button{
+        font-size: 22px;
+    }
+    .row-hero{
+        flex-wrap: wrap;
+    }
 }

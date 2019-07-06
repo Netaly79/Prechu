@@ -16,3 +16,13 @@
     text-align: center;
     margin-bottom: 30px;
 }
+@media all and (min-width: 640px) {
+    .section-title{
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .section-shopping{
+        padding-bottom: 0;
+        border:none;
+    }
+    }
