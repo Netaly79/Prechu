@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 .col{
-    display: flex;
+    
 }
 .col-40-sm{
     padding: 0 33px;
@@ -15,7 +15,7 @@
 }
 .col-card-sm{
     width:100%;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid gainsboro;
 }
 .col-shopping-sm{
     width:100%;
