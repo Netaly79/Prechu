@@ -1,5 +1,5 @@
 
 .icon-ok-circled:before { content: '\e800'; } /* '' */
-.icon-desktop-circled:before { content: '\e801'; } /* '' */
 .icon-pencil:before { content: '\e802'; } /* '' */
+.icon-desktop:before { content: '\e803'; } /* '' */
 .icon-shopping-basket:before { content: '\f291'; } /* '' */

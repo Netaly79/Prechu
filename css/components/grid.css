@@ -1,8 +1,9 @@
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 .col{
-
+    display: flex;
 }
 .col-40-sm{
     padding: 0 33px;
@@ -11,4 +12,12 @@
 .col-60-sm{
     padding: 0 33px;
     width: 60%;
+}
+.col-card-sm{
+    width:100%;
+    border-bottom: 1px solid lightgrey;
+}
+.col-shopping-sm{
+    width:100%;
+    flex-direction: column;
 }
