@@ -1,6 +1,6 @@
 .section{
     display:flex;
-}
+    }
 .section-shopping {
     display: flex;
     flex-direction: column;
@@ -20,6 +20,7 @@
     .section-title{
         text-align: left;
         margin-bottom: 0px;
+        padding-left:50px;
     }
     .section-shopping{
         padding-bottom: 0;

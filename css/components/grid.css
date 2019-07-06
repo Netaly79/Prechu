@@ -1,6 +1,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     }
 .col-40-sm{
     padding: 0 33px;
@@ -31,11 +32,8 @@
         width:33.33%;
         border:none;
     }
-    .col-shopping-40{
-        width:40%;
+    .col-shopping{
+        width:50%;
     }
-    .col-shopping-60{
-        width:60%;
-        padding: 30px;
-    }
+    
 }

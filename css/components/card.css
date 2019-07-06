@@ -127,6 +127,7 @@
     .shopping-image{
         max-width:371px;
         width: 100%;
+        padding-left: 50px;
     }
     .shopping-header img{
         height: 279px;

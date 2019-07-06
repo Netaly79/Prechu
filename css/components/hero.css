@@ -63,7 +63,6 @@
     }
     .hero-image img{
         height: 436px;
-        object-fit: contain;
     }
     .hero-title{
         font-size: 42px;
