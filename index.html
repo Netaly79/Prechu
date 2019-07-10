@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="css/icons/fontello-ie7-codes.css">
         <link rel="stylesheet" href="css/icons/fontello-ie7.css">
         <link rel="stylesheet" href="css/icons/fontello.css">
+        <link rel="stylesheet" href="css/components/swiper.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -45,24 +47,62 @@
                 </div>
                 <div class="foreground">
                     <div class="container hero-container">
-                        <div class="row">
-                            <div class="col col-xs col-40-sm col-40">
-                                <figure class="hero-image">
-                                    <img src="image/iphone@2X.png" alt="mobile">
-                                </figure>
-                            </div>
-                            <div class="col col-xs col-60-sm col-60">
-                                <div class="hero-text">
-                                    <div class="hero-title">Lorem Ipsum is simply </div>
-                                    <div class="hero-description">dummy text of the <br>
-                                            printing & typesetting </div>
-                                    <div class="button">
-                                        <i class="icon-ok-circled"></i>
-                                        Sign up now
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col col-xs col-40-sm col-40">
+                                            <figure class="hero-image">
+                                                <img src="image/iphone@2X.png" alt="mobile">
+                                            </figure>
+                                        </div>
+                                        <div class="col col-xs col-60-sm col-60">
+                                            <div class="hero-text">
+                                                <div class="hero-title">Lorem Ipsum is simply </div>
+                                                <div class="hero-description">dummy text of the <br>
+                                                        printing & typesetting </div>
+                                                <div class="button">
+                                                    <i class="icon-ok-circled"></i>
+                                                    Sign up now
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col col-xs col-40-sm col-40">
+                                            <figure class="hero-image">
+                                                <img src="image/mobile.png" alt="mobile">
+                                            </figure>
+                                        </div>
+                                        <div class="col col-xs col-60-sm col-60">
+                                            <div class="hero-text">
+                                                <div class="hero-title">Lorem Ipsum is simply </div>
+                                                <div class="hero-description">dummy text of the <br>
+                                                        printing & typesetting </div>
+                                                <div class="button">
+                                                    <i class="icon-ok-circled"></i>
+                                                    Sign up now
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
+
+
+
+
+
+
+
+                       
                     </div>
                 </div>
             </section>
@@ -131,5 +171,21 @@
         <footer>
             <div class="copyright">Copyright © 2012-2013 cssauthor.com</div>
         </footer>
+        <script
+			  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+			  crossorigin="anonymous"></script>
+              <script src="js/swiper.min.js"></script>
+
+              <!-- Initialize Swiper -->
+              <script>
+                var swiper = new Swiper('.swiper-container', {
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                  },
+                });
+              </script>
+           
     </body>
 </html>

@@ -3,6 +3,7 @@
 }
 .hero-container{
     flex-direction: row;
+    justify-content: center;
 }
 .background{
     position: absolute;
@@ -49,6 +50,7 @@
     font-weight: 300;
     line-height: 35.94px;
     margin-bottom: 25px;
+    text-align: left;
 }
 .button{
     padding: 10px;
