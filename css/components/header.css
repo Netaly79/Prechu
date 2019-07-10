@@ -1,6 +1,6 @@
 .header-container{
     background-color: white;
-    padding: 22px 26px 15px 30px;
+    padding:30px;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;

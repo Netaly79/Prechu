@@ -1,9 +1,12 @@
 .card{
     display:flex;
 }
-.card-mobile{
+.card-mobile-xs{
     width:100%;
     padding:40px 30px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .card-image{
     width:137px;
@@ -48,7 +51,6 @@
     font-family: "Segoe WPN";
     font-size: 19px;
     font-weight: 400;
-    width:354px;
 }
 .shopping-header{
     display: flex;
@@ -81,11 +83,23 @@
     font-size: 17px;
     font-weight: 300;
     line-height: 36px;
-    width:512px;
     padding-left: 0;
 }
 .card-shopping-desc li{
     list-style-type: none;
+}
+@media all and (min-width:480px){
+    .card-mobile{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .icon{
+        font-size: 60px;
+    }
+    .card-image{
+        width:100px;
+        height: 100px;
+    }
 }
 @media all and (min-width: 640px) {
     .card-pc{
@@ -102,7 +116,7 @@
     }
     .card-desc{
         font-size: 14px;
-        width:250px;
+        max-width:250px;
         text-align: center;
     }
     .shopping-header{

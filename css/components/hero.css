@@ -1,6 +1,9 @@
 .section-hero{
     position: relative;
 }
+.hero-container{
+    flex-direction: row;
+}
 .background{
     position: absolute;
     left:0;
@@ -14,8 +17,12 @@
     width: 100%;
 }
 .foreground{
-    padding: 22px 41px 12px 4px;
     width: 100%;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .hero-image{
     margin: 0;
@@ -33,6 +40,7 @@
     font-size: 31px;
     font-weight: 300;
     line-height: 35.94px;
+    text-align: center;
 }
 .hero-description{
     color: #ffffff;
@@ -49,7 +57,7 @@
     font-family: "Segoe WP";
     font-size: 31px;
     font-weight: 300;
-    width: 235px;
+    max-width: 235px;
     border:1px solid #5094f2;
 }
 .button:hover{
@@ -57,9 +65,10 @@
     background-color: #ffffff;
     cursor: pointer;
 }
+
 @media all and (min-width: 640px) {
     .hero-image{
-        width:345px;
+        max-width:345px;
     }
     .hero-image img{
         height: 436px;
@@ -75,5 +84,16 @@
     }
     .row-hero{
         flex-wrap: wrap;
+    }
+}
+@media all and (min-width: 480px) {
+    .hero-title{
+        text-align: left;
+    }
+    .hero-text{
+        align-items: flex-start;
+    }
+    .button{
+        font-size: 28px;
     }
 }
