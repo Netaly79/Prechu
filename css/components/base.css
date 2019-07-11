@@ -17,7 +17,8 @@ main{
 }
 .container {
   max-width:1250px;
-  padding: 30px;
+  width: 100%;
+  padding: 0 30px;
   display: flex;
   flex-wrap: wrap;
   margin:0 auto;

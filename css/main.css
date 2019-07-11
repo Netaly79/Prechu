@@ -13,3 +13,10 @@
 @import url('components/social.css');
 @import url('style.css');
 
+@font-face {
+    font-family: "Segoe WP";
+    src: url(../font/SegoeUIRegular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

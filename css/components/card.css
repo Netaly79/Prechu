@@ -3,14 +3,15 @@
 }
 .card-mobile-xs{
     width:100%;
-    padding:40px 30px 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 .card-image{
-    width:137px;
-    height:137px;
+    width:147px;
+    height:147px;
     margin: 0 14px;
     border-radius:50%;
     display: flex;
@@ -41,14 +42,14 @@
 }
 .card-title{
     color: #5094f2;
-    font-family: "Segoe WPN";
+    font-family: "Segoe WP";
     font-size: 34px;
     font-weight: 400;
     line-height: 51.86px;
 }
 .card-desc{
     color: #909090;
-    font-family: "Segoe WPN";
+    font-family: "Segoe WP";
     font-size: 19px;
     font-weight: 400;
 }
@@ -72,14 +73,14 @@
 .card-shopping-title{
     width:100%;
     color: #6f7173;
-    font-family: "Segoe WPN";
+    font-family: "Segoe WP";
     font-size: 34px;
     font-weight: 400;
     line-height: 44.42px;
 }
 .card-shopping-desc{
     color: #909090;
-    font-family: "Segoe WPN";
+    font-family: "Segoe WP";
     font-size: 17px;
     font-weight: 300;
     line-height: 36px;
@@ -87,21 +88,10 @@
 }
 .card-shopping-desc li{
     list-style-type: none;
+    font-family: "Segoe WP";
 }
-@media all and (min-width:480px){
-    .card-mobile{
-        flex-direction: row;
-        align-items: flex-start;
-    }
-    .icon{
-        font-size: 60px;
-    }
-    .card-image{
-        width:100px;
-        height: 100px;
-    }
-}
-@media all and (min-width: 640px) {
+
+@media all and (min-width: 641px){
     .card-pc{
        display:flex;
        flex-direction: column;
@@ -112,21 +102,27 @@
     }
     .card-title{
         font-size: 20px;
-        line-height: 44.42px;
+        line-height: 30.42px;
+        padding: 10px 0;
+        text-align: center;
     }
     .card-desc{
-        font-size: 14px;
-        max-width:250px;
+        font-size: 16px;
         text-align: center;
+    }
+    .card-image{
+        width:160px;
+        height: 160px;
+        flex-shrink: 0;
     }
     .shopping-header{
         justify-content: flex-start;
-        padding-top: 20px;
     }
     .card-shopping-title{
         font-size: 26px;
         font-weight: 400;
-        line-height: 44.42px;
+        line-height: 34.42px;
+        padding: 0;
     }
     .card-shopping-desc{
         margin: 0;
@@ -141,9 +137,30 @@
     .shopping-image{
         max-width:371px;
         width: 100%;
-        padding-left: 50px;
     }
     .shopping-header img{
-        height: 279px;
+        max-height: 279px;
+    }
+}
+@media all and (min-width:960px){
+
+}
+@media all and (min-width:480px) and (max-width:640px){
+    .card-mobile{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .icon{
+        font-size: 60px;
+    }
+    .card-image{
+        width:147px;
+        height:147px;
+        flex-shrink: 0;
+    }
+    .card-title{
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 41.86px;
     }
 }

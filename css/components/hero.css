@@ -1,9 +1,11 @@
 .section-hero{
-    position: relative;
+    
 }
 .hero-container{
+    position: relative;
     flex-direction: row;
     justify-content: center;
+    padding: 30px;
 }
 .background{
     position: absolute;
@@ -38,7 +40,7 @@
 .hero-title{
     color: #ffffff;
     font-family: "Segoe WP";
-    font-size: 31px;
+    font-size: 28px;
     font-weight: 300;
     line-height: 35.94px;
     text-align: center;
@@ -57,7 +59,7 @@
     background-color: #5094f2;
     color: #ffffff;
     font-family: "Segoe WP";
-    font-size: 31px;
+    font-size: 25px;
     font-weight: 300;
     max-width: 235px;
     border:1px solid #5094f2;
@@ -67,19 +69,30 @@
     background-color: #ffffff;
     cursor: pointer;
 }
-
-@media all and (min-width: 640px) {
+@media all and (min-width: 480px) and (max-width:640px){
+    .hero-title{
+        text-align: left;
+        font-size: 31px;
+    }
+    .hero-text{
+        align-items: flex-start;
+    }
+    .button{
+        font-size: 26px;
+    }
+}
+@media all and (min-width: 641px) {
     .hero-image{
         max-width:345px;
     }
     .hero-image img{
-        height: 436px;
+        max-height: 436px;
     }
     .hero-title{
-        font-size: 42px;
+        font-size: 36px;
     }
     .hero-description{
-        font-size: 26px;
+        font-size: 22px;
     }
     .button{
         font-size: 22px;
@@ -88,14 +101,11 @@
         flex-wrap: wrap;
     }
 }
-@media all and (min-width: 480px) {
+@media all and (min-width: 960px) {
     .hero-title{
-        text-align: left;
+        font-size: 42px;
     }
-    .hero-text{
-        align-items: flex-start;
-    }
-    .button{
-        font-size: 28px;
+    .hero-description{
+        font-size: 26px;
     }
 }
