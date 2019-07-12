@@ -139,7 +139,7 @@
         width: 100%;
     }
     .shopping-image img{
-        max-height: 279px;
+        height: 279px;
     }
 }
 @media all and (min-width:960px){
