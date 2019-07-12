@@ -138,12 +138,17 @@
         max-width:371px;
         width: 100%;
     }
-    .shopping-header img{
+    .shopping-image img{
         max-height: 279px;
     }
 }
 @media all and (min-width:960px){
-
+    .shopping-image{
+        width: 100%;
+    }
+    .shopping-image img{
+        height: 279px;
+    }
 }
 @media all and (min-width:480px) and (max-width:640px){
     .card-mobile{
