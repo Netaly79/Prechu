@@ -149,6 +149,9 @@
     .shopping-image img{
         height: 279px;
     }
+    .card-shopping-title{
+        text-align: left;
+    }
 }
 @media all and (min-width:480px) and (max-width:640px){
     .card-mobile{
