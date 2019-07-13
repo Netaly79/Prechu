@@ -1,6 +1,7 @@
 .header-container{
     background-color: white;
-    padding: 30px;
+    padding: 20px;
+    padding-bottom: 10px;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -24,7 +25,7 @@
 .logo-text{
     padding:6px 17px;
     color: #000000;
-    font-family: "Segoe WP";
+    font-family: "Segoe WP Light";
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0.42px;
@@ -45,10 +46,12 @@
 .menu-items{
     list-style-type: none;
     margin-right: 30px;
-    font-family: "Segoe WP";
+    font-family: "Segoe WP Light";
     font-size: 20px;
     color: rgba(108, 108, 108, 255);
     border-bottom: 2px solid transparent;
+    margin-bottom: 20px;
+    padding: 40px 0 0px 10px;
 }
 
 .menu-items a:hover{
@@ -59,7 +62,9 @@
     color: rgba(108, 108, 108, 255);
    }
 .burger-menu{
-    position: relative;
+    position: absolute;
+    top: 45px;
+    right: 25px;
 }
 .burger-menu ul{
     display: none;
@@ -96,7 +101,7 @@
             font-size: 49px;
         }  
 }
-@media all and (min-width: 640px){
+@media all and (min-width: 641px){
 
     .menu{
         display: flex;
@@ -120,7 +125,10 @@
 }
 @media all and (min-width: 960px) {
     .header-container{
-        padding: 5px 150px;
+        padding: 0px 130px;
+    }
+    .header-left{
+        padding-left: 10px;
     }
     
 }

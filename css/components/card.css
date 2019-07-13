@@ -10,8 +10,8 @@
     padding-top: 30px;
 }
 .card-image{
-    width:147px;
-    height:147px;
+    width:137px;
+    height:137px;
     margin: 0 14px;
     border-radius:50%;
     display: flex;
@@ -28,8 +28,20 @@
     background-color:#ebbb11;
 }
 .icon{
-    font-size: 80px;
+    
     color:white; 
+}
+.icon-pencil{
+    width:57px;
+    height:80px;
+}
+.icon-desktop{
+    width:71px;
+    height:61px;
+}
+.icon-basket{
+    width:78px;
+    height:71px;
 }
 .icon-shopping-basket{
     padding-right: 10px;
@@ -46,10 +58,11 @@
     font-size: 34px;
     font-weight: 400;
     line-height: 51.86px;
+    padding-top: 10px;
 }
 .card-desc{
     color: #909090;
-    font-family: "Segoe WP";
+    font-family: "Segoe WP Light";
     font-size: 19px;
     font-weight: 400;
 }
@@ -96,17 +109,22 @@
        display:flex;
        flex-direction: column;
        align-items: center;
+       padding-top: 50px;
     }
     .card-info{
         align-items: center;
     }
     .card-title{
         font-size: 20px;
-        line-height: 30.42px;
-        padding: 10px 0;
+        font-family: "Segoe WPN";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 44.42px;
+        padding-top: 10px;
         text-align: center;
     }
     .card-desc{
+        font-family: "Segoe WPN";
         font-size: 16px;
         text-align: center;
     }
@@ -117,22 +135,26 @@
     }
     .shopping-header{
         justify-content: flex-start;
+        padding-top: 40px;
+        padding-left: 20px;
     }
     .card-shopping-title{
         font-size: 26px;
         font-weight: 400;
         line-height: 34.42px;
-        padding: 0;
+        padding-left: 30px;
     }
     .card-shopping-desc{
         margin: 0;
+        font-family: "Segoe WPN";
         font-size: 15px;
         font-weight: 300;
-        width: 100%;
+        line-height: 36px;
         text-align: left;
+        padding-left: 30px;
     }
     .card-shopping-desc li{
-        line-height: 25.42px;
+        line-height: 36px;
     }
     .shopping-image{
         max-width:371px;
@@ -147,13 +169,32 @@
 }
 @media all and (min-width:960px){
     .shopping-image{
-        width: 100%;
+       
     }
     .shopping-image img{
         height: 279px;
     }
     .card-shopping-title{
         text-align: left;
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+    .card-image{
+        width:186px;
+        height: 186px;
+        flex-shrink: 0;
+    }
+    .icon-pencil{
+        width:78px;
+        height:108px;
+    }
+    .icon-desktop{
+        width:95px;
+        height:81px;
+    }
+    .icon-basket{
+        width:98px;
+        height:90px;
     }
 }
 @media all and (min-width:480px) and (max-width:640px){
@@ -165,8 +206,8 @@
         font-size: 60px;
     }
     .card-image{
-        width:147px;
-        height:147px;
+        width:137px;
+        height:137px;
         flex-shrink: 0;
     }
     .card-title{

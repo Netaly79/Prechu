@@ -4,7 +4,7 @@
 .hero-container{  
     flex-direction: row;
     justify-content: center;
-    padding: 30px;
+    padding: 20px 0;
 }
 .background{
     position: absolute;
@@ -20,14 +20,18 @@
 }
 .foreground{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero-text{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
+    
 }
 .hero-image{
-    margin: 0;
+    margin: 0 auto;
     max-width: 177px;
     width: 100%;
 }
@@ -43,6 +47,7 @@
     font-weight: 300;
     line-height: 35.94px;
     text-align: center;
+    margin-bottom: 10px;
 }
 .hero-description{
     color: #ffffff;
@@ -51,23 +56,34 @@
     font-weight: 300;
     line-height: 35.94px;
     margin-bottom: 25px;
-    text-align: left;
+    text-align: center;
 }
 .button{
-    padding: 10px;
+    padding: 5px;
     background-color: #5094f2;
     color: #ffffff;
-    font-family: "Segoe WP";
+    font-family: "Segoe WPN";
     font-size: 25px;
     font-weight: 300;
     max-width: 235px;
     border:1px solid #5094f2;
+   margin: 0 auto;
 }
 .button:hover{
     color: #5094f2;
     background-color: #ffffff;
     cursor: pointer;
 }
+.bx-wrapper {
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border: 5px solid #fff;
+    background:transparent !important;
+  }
+  .fotorama{
+      text-align: center;
+  }
 @media all and (min-width: 480px) and (max-width:640px){
     .hero-title{
         text-align: left;
@@ -75,9 +91,15 @@
     }
     .hero-text{
         align-items: flex-start;
+        padding-left: 25px;
+    }
+    .hero-description{
+        text-align: left;
+
     }
     .button{
-        font-size: 26px;
+        font-size: 31px;
+        margin: 0;
     }
 }
 @media all and (min-width: 641px) {
@@ -85,19 +107,31 @@
         max-width:345px;
     }
     .hero-image img{
-        max-height: 436px;
+        height: 436px;
     }
     .hero-title{
         font-size: 36px;
+        text-align: start;
     }
     .hero-description{
         font-size: 22px;
+        margin-bottom: 40px;
+        text-align: start;
     }
     .button{
         font-size: 22px;
+        max-width: 172px;
+        margin: 0;
     }
     .row-hero{
         flex-wrap: wrap;
+    }
+    .hero-text{
+        padding: 0 95px;
+        justify-content: center;
+    }
+    .hero-container{
+        padding: 30px;
     }
 }
 @media all and (min-width: 960px) {
@@ -106,5 +140,8 @@
     }
     .hero-description{
         font-size: 26px;
+    }
+    .hero-container{
+        padding: 40px 140px;
     }
 }

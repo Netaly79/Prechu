@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Segoe WP", 'Open Sans', sans-serif;
+  font-family: "Segoe UI", 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background: #fff;
@@ -17,13 +17,13 @@ main{
 }
 .container {
   max-width:1250px;
-  width: 100%;
-  padding: 0 30px;
+  width:100%;
   display: flex;
   flex-wrap: wrap;
   margin:0 auto;
   flex-direction: column;
   overflow:hidden;
+  padding: 0 30px;
  }
  
 img {
@@ -51,4 +51,9 @@ ul > li > ul,
 ol > li > ul,
 ol > li > ol {
   margin: 0;
+}
+@media all and (min-width: 641px){
+  .container{
+    padding:0 100px;
+  }
 }

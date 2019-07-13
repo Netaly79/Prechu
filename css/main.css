@@ -15,8 +15,17 @@
 
 @font-face {
     font-family: "Segoe WP";
-    src: url(../font/SegoeUIRegular.woff) format('woff');
+    src: url('../font/ofont.ru_Segoe\ WP.ttf') format('tft');
     font-weight: normal;
     font-style: normal;
   }
   
+    @font-face {
+      font-family: "Segoe WP Light";
+      src: url(../font/SegoeUIRegular.woff) format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+    
