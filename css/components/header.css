@@ -60,9 +60,8 @@
     color: rgba(108, 108, 108, 255);
    }
 .burger-menu{
-    position: absolute;
-    top: 45px;
-    right: 25px;
+    position: relative;
+
 }
 .burger-menu ul{
     display: none;
