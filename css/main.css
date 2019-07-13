@@ -20,12 +20,7 @@
     font-style: normal;
   }
   
-    @font-face {
-      font-family: "Segoe WP Light";
-      src: url(../font/SegoeUIRegular.woff) format('woff');
-      font-weight: normal;
-      font-style: normal;
-    }
+    
 
 
     

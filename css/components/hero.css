@@ -11,7 +11,7 @@
     left:0;
     right: 0;
     top: 0;
-    bottom: 0;
+    bottom: 10px;
     z-index: -1;
 }
 .background img {
@@ -42,7 +42,7 @@
 }
 .hero-title{
     color: #ffffff;
-    font-family: "Segoe WP";
+    font-family: "Segoe WP Light";
     font-size: 28px;
     font-weight: 300;
     line-height: 35.94px;
@@ -51,7 +51,7 @@
 }
 .hero-description{
     color: #ffffff;
-    font-family: "Segoe WP";
+    font-family: "Segoe WP Light";
     font-size: 23px;
     font-weight: 300;
     line-height: 35.94px;
@@ -62,7 +62,7 @@
     padding: 5px;
     background-color: #5094f2;
     color: #ffffff;
-    font-family: "Segoe WPN";
+    font-family: "Segoe WP Light";
     font-size: 25px;
     font-weight: 300;
     max-width: 235px;
@@ -83,7 +83,18 @@
   }
   .fotorama{
       text-align: center;
+      width:100%;
   }
+  .triangle{
+    height: 8px;
+    width: 100%;
+    background-image: url(../../image/triangle.png);
+    
+  }
+  .triangle img {
+      object-fit: scale-down;
+  }
+
 @media all and (min-width: 480px) and (max-width:640px){
     .hero-title{
         text-align: left;

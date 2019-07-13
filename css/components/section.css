@@ -9,7 +9,7 @@
 }
 .section-title{
     color: #6f7173;
-    font-family: "Segoe WPN";
+    font-family: "Segoe WP Light";
     font-size: 42px;
     font-weight: 400;
     line-height: 44.42px;
@@ -27,6 +27,6 @@
     }
     .section-shopping{
         padding-bottom: 0;
-        border:none;
+        
     }
 }

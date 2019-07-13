@@ -5,7 +5,6 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
- 
 }
 .header-left{
     display: flex;
@@ -53,7 +52,6 @@
     margin-bottom: 20px;
     padding: 40px 0 0px 10px;
 }
-
 .menu-items a:hover{
     color:darkblue;
 }
@@ -76,7 +74,6 @@
     padding:10px;
     margin: 0;
     z-index: 2;
-  
   }
   .burger-menu .nav-toggle {
     display: inline-block;
@@ -89,7 +86,6 @@
   .burger-menu ul.is-open {
     display: block;
   }
-  
   .burger-menu ul li{
     padding:0 10px;
   }
