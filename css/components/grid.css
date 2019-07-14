@@ -15,7 +15,7 @@
     flex-direction: column;
 }
 
-@media all and (min-width: 641px) {
+@media all and (min-width: 640px) {
     .col-60{
         width:60%;
     }
@@ -33,7 +33,7 @@
 @media all and (min-width: 960px) {
 
 }
-@media all and (min-width:480px) and (max-width:640px){
+@media all and (min-width:480px) and (max-width:639px){
     .col-40-sm{
         width:40%
     }

@@ -48,6 +48,7 @@
     font-weight: 300;
     line-height: 35.94px;
     text-align: center;
+    padding: 0 15px;
     margin-bottom: 10px;
 }
 .hero-description{
@@ -100,14 +101,16 @@
       object-fit: scale-down;
   }
 
-@media all and (min-width: 480px) and (max-width:640px){
+@media all and (min-width: 480px) and (max-width:639px){
     .hero-title{
         text-align: left;
         font-size: 31px;
+        padding-left: 0px;
+        padding-right: 25px;
     }
     .hero-text{
         align-items: flex-start;
-        padding-left: 25px;
+        padding: 0 25px;
     }
     .hero-description{
         text-align: left;
@@ -116,9 +119,10 @@
     .button{
         font-size: 31px;
         margin: 0;
+        margin-bottom:20px; 
     }
 }
-@media all and (min-width: 641px) {
+@media all and (min-width: 640px) {
     .hero-image{
         max-width:345px;
     }
@@ -135,15 +139,16 @@
         text-align: start;
     }
     .button{
-        font-size: 22px;
+        font-size: 20px;
         max-width: 172px;
+        padding: 10px;
         margin: 0;
     }
     .row-hero{
         flex-wrap: wrap;
     }
     .hero-text{
-        padding: 0 95px;
+        padding: 0 40px;
         justify-content: center;
     }
     .hero-container{

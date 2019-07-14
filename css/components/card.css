@@ -55,7 +55,7 @@
 .card-title{
     color: #5094f2;
     font-family: "Segoe WP Light";
-    font-size: 34px;
+    font-size: 26px;
     font-weight: 400;
     line-height: 51.86px;
     padding-top: 10px;
@@ -73,6 +73,7 @@
     justify-content: center;
     align-content: center;
     width: 100%;
+    padding-top: 20px;
 }
 .shopping-image{
     max-width:215px;
@@ -107,7 +108,7 @@
     font-family: "Segoe WP Light";
 }
 
-@media all and (min-width: 641px){
+@media all and (min-width: 640px){
     .card-pc{
        display:flex;
        flex-direction: column;
@@ -120,7 +121,6 @@
     .card-title{
         font-size: 20px;
         font-family: "Segoe WP Light";
-        font-size: 20px;
         font-weight: 400;
         line-height: 44.42px;
         padding-top: 10px;
@@ -132,14 +132,13 @@
         text-align: center;
     }
     .card-image{
-        width:160px;
-        height: 160px;
+        max-width:140px;
+        height: 140px;
         flex-shrink: 0;
     }
     .shopping-header{
         justify-content: flex-start;
-        padding-top: 40px;
-        padding-left: 20px;
+        align-items: flex-start;
     }
     .card-shopping-title{
         font-size: 26px;
@@ -165,20 +164,19 @@
         width: 100%;
     }
     .shopping-image img{
-        height: 279px;
+        max-height: 279px;
     }
 }
 @media all and (min-width:960px){
-    .shopping-image img{
-        height: 279px;
-    }
+    
     .card-shopping-title{
         text-align: left;
         padding-top: 10px;
         margin-bottom: 20px;
     }
     .card-image{
-        width:186px;
+        max-width:186px;
+        width: 186px;
         height: 186px;
         flex-shrink: 0;
     }
@@ -195,7 +193,7 @@
         height:90px;
     }
 }
-@media all and (min-width:480px) and (max-width:640px){
+@media all and (min-width:480px) and (max-width:639px){
     .card-mobile{
         flex-direction: row;
         align-items: flex-start;

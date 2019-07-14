@@ -22,7 +22,6 @@ main{
   flex-wrap: wrap;
   margin:0 auto;
   flex-direction: column;
-  overflow:hidden;
   padding: 0 30px;
  }
  
@@ -51,9 +50,4 @@ ul > li > ul,
 ol > li > ul,
 ol > li > ol {
   margin: 0;
-}
-@media all and (min-width: 641px){
-  .container{
-    padding:0 100px;
-  }
 }

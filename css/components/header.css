@@ -39,9 +39,8 @@
 .menu{
     display: none;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 30px 0 20px 0;
 }
 .menu-items{
     list-style-type: none;
@@ -50,8 +49,8 @@
     font-size: 20px;
     color: rgba(108, 108, 108, 255);
     border-bottom: 2px solid transparent;
-    margin-bottom: 20px;
-    padding: 40px 0 0px 10px;
+    padding-right:10px;
+    padding-bottom: 10px;
 }
 .menu-items a:hover{
     color:darkblue;
@@ -96,7 +95,7 @@
             font-size: 49px;
         }  
 }
-@media all and (min-width: 641px){
+@media all and (min-width: 640px){
 
     .menu{
         display: flex;
