@@ -1,3 +1,4 @@
+
 .header-container{
     background-color: white;
     padding: 20px;
@@ -61,7 +62,6 @@
    }
 .burger-menu{
     position: relative;
-
 }
 .burger-menu ul{
     display: none;
@@ -72,10 +72,10 @@
     background: #5094f2;
     padding:10px;
     margin: 0;
-    z-index: 2;
+    z-index: 5;
   }
   .burger-menu .nav-toggle {
-    display: inline-block;
+    display: block;
     width:58px;
     height:44px;
     background-image: url(../../image/menu.png);

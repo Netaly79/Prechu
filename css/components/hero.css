@@ -11,8 +11,9 @@
     left:0;
     right: 0;
     top: 0;
-    bottom: 10px;
-    z-index: -1;
+    bottom:0;
+    opacity: 0.96;
+    z-index: -2;
 }
 .background img {
     object-fit: cover;
@@ -67,7 +68,7 @@
     font-weight: 300;
     max-width: 235px;
     border:1px solid #5094f2;
-   margin: 0 auto;
+    margin: 20px auto;
 }
 .button:hover{
     color: #5094f2;
@@ -86,9 +87,13 @@
       width:100%;
   }
   .triangle{
-    height: 8px;
-    width: 100%;
-    background-image: url(../../image/triangle.png);
+    position: absolute;
+    left:0;
+    bottom: 0px;
+    height: 15px;
+    right: 0;
+    z-index: 0;
+    background-image: url(../../image/decore.png);
     
   }
   .triangle img {

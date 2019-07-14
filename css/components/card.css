@@ -59,6 +59,7 @@
     font-weight: 400;
     line-height: 51.86px;
     padding-top: 10px;
+    text-align: center;
 }
 .card-desc{
     color: #909090;
@@ -74,7 +75,8 @@
     width: 100%;
 }
 .shopping-image{
-    width:215px;
+    max-width:215px;
+    width: 100%;
     text-align: center;
     display: block;
 }
@@ -90,6 +92,7 @@
     font-size: 34px;
     font-weight: 400;
     line-height: 44.42px;
+    text-align: center;
 }
 .card-shopping-desc{
     color: #909090;
@@ -143,6 +146,7 @@
         font-weight: 400;
         line-height: 34.42px;
         padding-left: 30px;
+        text-align: left;
     }
     .card-shopping-desc{
         margin: 0;
@@ -162,9 +166,6 @@
     }
     .shopping-image img{
         height: 279px;
-    }
-    .card-shopping-title{
-        text-align: left;
     }
 }
 @media all and (min-width:960px){
@@ -211,5 +212,10 @@
         font-size: 34px;
         font-weight: 400;
         line-height: 41.86px;
+        text-align: left;
     }
+    .card-shopping-title{
+        text-align: left;
+    }
+    
 }
