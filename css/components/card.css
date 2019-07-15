@@ -82,7 +82,7 @@
     display: block;
 }
 .shopping-image img{
-    height:162px;
+    max-height:162px;
     object-fit: contain;
     width: 100%;
 }

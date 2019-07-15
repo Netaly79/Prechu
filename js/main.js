@@ -8,23 +8,13 @@ $(document).ready(function(){
 
   var swiper = new Swiper('.swiper-container', {
     autoplay:{
-      delay:4000
-
+      delay:8000
     },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    breakpointsInverse: true,
-    breakpoints:{
-      320: {
-        delay:4000
-      },
-      640: {
-        autoplay:false
-      }
-    }
-    
+  
     })
       
 });

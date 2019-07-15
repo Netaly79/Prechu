@@ -4,7 +4,7 @@
 .section-shopping {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 0px;
     border-bottom: 1px solid gainsboro;
 }
 .section-title{
@@ -16,8 +16,10 @@
     text-align: center;
     margin-bottom: 15px;
 }
-@media all and (min-width: 960px) {
-
+@media all and (min-width: 480px) {
+    .section-shopping{
+        padding: 40px;
+    }
 }
 @media all and (min-width: 640px) {
     .section-title{
